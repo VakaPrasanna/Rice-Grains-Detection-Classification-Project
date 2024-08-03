@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 """
 URL configuration for RiceGrains project.
 
@@ -64,5 +64,4 @@ urlpatterns = [
 ]
 
 if settings.DEBUG:
->>>>>>> origin/main
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
