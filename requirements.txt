@@ -1,0 +1,18 @@
+<<<<<<< HEAD
+# requirements.txt
+Django==3.2
+numpy
+tensorflow
+opencv-python
+scikit-image
+keras
+=======
+# requirements.txt
+Django==3.2
+numpy
+tensorflow
+opencv-python
+scikit-image
+keras
+>>>>>>> origin/main
+django-crispy-forms
