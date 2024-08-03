@@ -1,4 +1,3 @@
-
 """
 URL configuration for RiceGrains project.
 
@@ -29,7 +28,6 @@ urlpatterns = [
     path('', views.classify_image, name='classify_image'),
     # Add other app URLs if needed
 ]
-
 
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
